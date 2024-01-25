@@ -4,13 +4,13 @@ class Goals:
 
 
     def fitnessActivities(self):
-        act = ["stretch", "workout", "PT"]
+        act = ["Stretch", "Workout", "PT"]
         act.pop(random.randint(0,2))
         act.pop(random.randint(0,1))  
         return act[0]
     
     def mentalActivities(self):
-        act = ["meditate", "read", "research diet", "study", "personal project", "research random"]
+        act = ["Meditate", "Read", "Research diet", "Study", "Personal project", "Research random"]
         act.pop(random.randint(0,5))
         act.pop(random.randint(0,4))
         act.pop(random.randint(0,3))
